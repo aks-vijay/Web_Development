@@ -1,0 +1,163 @@
+body {
+  text-align: center;
+  margin: 0;
+  font-family: 'Merriweather', serif;
+}
+
+/****** CLASS SECTION ******/
+
+.top-container {
+  background-color: #EAF6F6;
+  position: relative;
+  padding-top: 100px;
+}
+
+.bottom-container {
+  background-color: #66BFBF;
+  position: relative;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+h1 {
+  margin: 50px auto 0 auto;
+  font-size: 4rem;
+  font-family: 'Sacramento', cursive;
+  color: #66BFBF;
+  line-height: 2;
+}
+
+.programmer {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5rem;
+}
+
+h2 {
+  color: #66BFBF;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: normal;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+}
+
+a {
+  color: #11999E;
+  margin: 10px 20px;
+  font-size: 14px;
+}
+
+a:hover {
+  color: #EAF6F6;
+}
+
+.dev {
+  text-decoration: underline;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left:250px;
+  bottom: 300px;
+  height: 8%;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top:40px;
+  height: 8%;
+}
+
+.profile-pic {
+  margin: 100px auto auto auto;
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+}
+
+.about-me {
+  width: 50%;
+  margin: auto;
+  margin: 20px auto 100px auto;
+  line-height: 2;
+}
+
+.computer {
+  border-radius: 50%;
+  width: 25%;
+  height: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.chillies {
+  border-radius: 50%;
+  width: 25%;
+  height: 25%;
+  float: right;
+  margin-right: 30px;
+}
+
+.skill-row {
+  width: 50%;
+  margin: auto;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+hr {
+  width: 3%;
+  border: 8px dotted;
+  border-style: none none dotted;
+  color: #EAF6F6;
+}
+
+p{
+  color: #4E514E;
+}
+
+.contact-me {
+  margin-bottom: 50px;
+}
+
+.copyright{
+  color: #EAF6F6;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
+
+.btn {
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #30eccb;
+  background-image: -webkit-linear-gradient(top, #30eccb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30eccb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30eccb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30eccb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30eccb, #2bc4ad);
+  text-decoration: none;
+}
+
+.contact-message {
+  width: 40%;
+  margin: 40px auto 40px auto;
+}
