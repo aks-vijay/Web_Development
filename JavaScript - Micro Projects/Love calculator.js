@@ -21,8 +21,8 @@ if (lovescore > 70) {
 }
 if (lovescore > 40 && lovescore <= 70) {
     alert("You both have a love score of " + 
-          lovescore + "%";
+          lovescore + "%");
 }
 if (lovescore <=30 ) {
-    alert("I'm sorry, you both have a very love score of only " + lovescore + "%");
+    alert("I'm sorry, you both have a very low love score of only " + lovescore + "%");
 }
