@@ -1,7 +1,7 @@
 // prompt the user
 alert("Welcome to Love Calculator");
 var yourName = prompt("What is your name?");
-var yourLoversName = prompt("What is your lover's name?");
+var yourLoversName = prompt("What is their name?");
 
 // calculate the score
 function calcScore() {
@@ -11,11 +11,12 @@ function calcScore() {
     return score;
 }
 
+// call the function
 lovescore = calcScore();
 
-// return the score to the user
+// return the score to the user 
 if (lovescore > 70) {
-    alert("You both have a love score of " + 
+    alert("You both have a great love score of " + 
           lovescore + "%");
 }
 if (lovescore > 40 && lovescore <= 70) {
