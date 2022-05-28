@@ -1,9 +1,9 @@
 // prompt the user
 alert("Welcome to Love Calculator");
 var yourName = prompt("What is your name?");
-var yourLoversName = prompt("What is their name?");
+var theirName = prompt("What is their name?");
 
-// calculate the score
+// calculate the score using function 
 function calcScore() {
     var n = Math.random();
     score = n*100;
